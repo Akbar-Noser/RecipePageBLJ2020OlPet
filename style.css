@@ -80,10 +80,20 @@ header.sticky ul li a{
 }
 #bodypart{
     background-color: #A1F8B4;
-    
+    padding-right: 2em;
+    padding-left: 2em;
     margin-top: -3em;
+    outline: 0.8vw solid #77BD86;
 }
-.col-border{
-    content: "";
-    border: 150px #77BD86;
+#ingredients{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5vmax;
+}
+@media screen and (min-width: 576px){
+    #listpart{
+        float: right;
+    }
+    
+
 }
