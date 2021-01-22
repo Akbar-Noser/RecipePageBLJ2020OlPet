@@ -1,5 +1,6 @@
 #title{
     padding-right: 5em;
+    
 }
 .container-fluid{
     padding-right: 0;
@@ -121,10 +122,16 @@ header.sticky ul li a{
     #MakePiles{
         margin-top: 27%;
     }
+    #footer_text{
+        float: right;
+    }
 }
 
 /*Footer*/
 footer{
     background-color: #A1F8B4;
     margin-top: 5em;
+}
+#PDF{
+
 }
