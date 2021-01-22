@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -44,35 +44,35 @@
             <div class="row">
             <ul class="col-sm-6" >
                 <div id="listpart">
-                <li>2dl of white sugar</li>
-                <li >1dl of brown sugar</li>
-                <li>2.5dl of flour</li>
-                <li>1 teespoon of honey</li>
-                <li>4g of vanilla sugar</li>
+                <li class="step_text">2dl of white sugar</li>
+                <li class="step_text">1dl of brown sugar</li>
+                <li class="step_text">2.5dl of flour</li>
+                <li class="step_text">1 teespoon of honey</li>
+                <li class="step_text">4g of vanilla sugar</li>
             </div>
             </ul>
             <ul class="col-sm-6">
-                <li>a pinch of salt</li>
-                <li>1 tablespoon of cocoa</li>
-                <li>50g of chocolate</li>
-                <li>a bunch of random ingredients</li>
-                <li>1 egg</li>
-                <li>4g of baking powder</li>
+                <li class="step_text">a pinch of salt</li>
+                <li class="step_text">1 tablespoon of cocoa powder</li>
+                <li class="step_text">50g of chocolate</li>
+                <li class="step_text">a bunch of random ingredients</li>
+                <li class="step_text">1 egg</li>
+                <li class="step_text">2g of baking powder</li>
             </ul>
            </div>
            <div class="row">
                <div class="col-sm-6">
                     <center><img class="step_pictures" src="PNG/Melt_Butter.jpg" alt=""></center>
                     <p class="step_title">Step 1</p>
-                    <p>
-                        First, melt the butter and preheat the oven,
+                    <p class="step_text">
+                        First, melt the butter and preheat the oven to 180 degrees,
                         we are going to need these later.
                     </p>
               </div>
               <div class="col-sm-6">
-                <center><img src="PNG/Mix_Sugar.jpg" class="step_pictures" id="step2" alt=""></center>
+                <center><img src="PNG/Mix_Sugar.jpg" class="step_pictures step_margin" alt=""></center>
                 <p class="step_title">Step 2</p>
-                <p>
+                <p class="step_text">
                     Mix the brown and white sugar together with the vanilla sugar
                 </p>
             </div>
@@ -81,14 +81,91 @@
                 <div class="col-sm-6">
                     <center><img src="PNG/Mix_Butter_Sugar.jpg" class="step_pictures" alt=""></center>
                     <p class="step_title">Step 3</p>
-                    <p>
-                        Mix the sugar with the molten butter, which we prepared
-                        and add an egg. 
+                    <p class="step_text">
+                        Mix the sugar with the molten butter, which we prepared,
+                        add an egg and a pinch of salt. 
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <center><img src="PNG/Mix_Flour.jpg" class="step_pictures step_margin" alt=""></center>
+                    <p class="step_title">Step 4</p>
+                    <p class="step_text">
+                        Add the cocoa powder, flour and the baking powder.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <center><img src="PNG/Mix_Dough.jpg" class="step_pictures" alt=""></center>
+                    <p class="step_title">Step 5</p>
+                    <p class="step_text">
+                        At this point, mix the dough until you get a sticky,
+                        wet product. If the dough dries out, add some milk and 
+                        keep mixing it.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <center><img src="PNG/Add_Random.jpg" class="step_pictures step_margin" alt=""></center>
+                    <p class="step_title">Step 6</p>
+                    <p class="step_text">
+                        We've arrived at the point, where we just throw random stuff
+                        into the bowl. You can choose a theme or just throw in the first
+                        thing you see. However, I do not take responsibility for you or
+                        your oven. Proceed at your own risk.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <center><img src="PNG/Break_Down.jpg" class="step_pictures" alt=""></center>
+                    <p class="step_title">Step 7</p>
+                    <p class="step_text">
+                        Whatever you've chosen, you should break
+                        down your ingredients into small bits if 
+                        necessary.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <center><img src="PNG/Mix_Bits.jpg" class="step_pictures step_margin" alt=""></center>
+                    <p class="step_title">Step 8</p>
+                    <p class="step_text">
+                        Mix in the bits into the dough, if possible.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <center><img src="PNG/Making_Piles.jpg" class="step_pictures" id="MakePiles" alt=""></center>
+                    <p class="step_title">Step 9</p>
+                    <p class="step_text">
+                        Pile the dough up on a baking sheet and 
+                        put them into the preheated oven for around 8-12 minutes,
+                        depending on the ingredients added.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <center><img src="PNG/Product.jpg" class="step_pictures step_margin" alt=""></center>
+                    <p class="step_title">Step 10</p>
+                    <p class="step_text">
+                        Take out the cookies, let them cool down a bit and
+                        hopefully enjoy.
                     </p>
                 </div>
             </div>
         </div>
     </div>
+    <footer class="row">
+        <div class="col-sm-6">
+            <p class="step_text" style="float: right;">
+                Oliver Pettersson <br>
+                Herostrasse 12, 8048 Zürich <br>
+                Oliver.Pettersson@noseryoung.ch
+            </p>
+        </div>
+        <div class="col-sm-6">
+
+        </div>
+    </footer>
 </div>
 </body>
 </html>

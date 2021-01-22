@@ -105,12 +105,26 @@ header.sticky ul li a{
     text-align: center;
     padding-top: 1em;
     font-family: 'Pacifico', cursive;
-    font-size: 1em;
+    font-size: 2em;
+
+}
+.step_text{
+    font-family: 'Old Standard TT', serif;
+    font-size: x-large;
 
 }
 @media screen and (min-width: 576px){
-    #step2{
+    .step_margin{
     
         margin-top: 80%;  
     }
+    #MakePiles{
+        margin-top: 27%;
+    }
+}
+
+/*Footer*/
+footer{
+    background-color: #A1F8B4;
+    margin-top: 5em;
 }
